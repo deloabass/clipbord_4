@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
+
+.m{
+    justify-content:center;
+background-image: url(bg-header-desktop.png);
+background-repeat: no-repeat;
+background-color: white;
+height: 200px;
+}
+.container{
+    overflow: hidden;
+    max-width: 1440px;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+#iOS {
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 15%;
+    height: 40px;
+     background-color: hsl(171, 66%, 44%)
+}
+#iOS:hover{
+    box-shadow: 5px 5px 5px hsl(171, 66%, 44%);
+}
+#ma{
+    margin-top: 30px;
+}
+#dev{
+    height: 480px;
+}
+#Mac{
+
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 15%;
+    height: 40px;
+    background-color:hsl(233, 100%, 69%) ;
+}
+#Mac:hover{
+    box-shadow: 5px 5px 5px hsl(233, 100%, 69%);
+    
+}
+p{
+   color: hsl(201, 11%, 66%);
+}
+h1{
+    color: hsl(210, 10%, 33%);
+}
+#ka{
+    width: 800px;
+    margin-left: -170px;
+    
+}
+.computer{
+    display: flex;
+    padding-right: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin: auto;
+
+}
+.b{
+    margin-bottom: 120px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 100px;
+    padding-top: 70px;
+    
+}
+.cli{
+    margin-left: -20px;
+}
+.A{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+}
+.C{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: -580px;
+    font-size: -50px;
+}
+.D{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.abas{
+    display: flex;
+    height: 50px;
+}
+    
+.icon a:hover svg path{
+    padding-left: 12px;
+     fill:hsl(171, 66%, 44%);
+     margin: 1rem;
+     color: none;
+     display: flex;
+
+}
+.sing{
+    margin-top: 2rem;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    font-family: arial;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.footer{
+    margin-top: 110px;
+    
+}
+a{
+    text-decoration: none;
+}
+.icon {
+    word-spacing: 20px;
+}
+.v{
+    border-color: cornsilk;
+    padding-right: 42px;
+}
+a{
+    color: hsl(210, 10%, 33%);
+}
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+
+
+@media screen and (max-width:768px) {
+    body{
+        flex-direction: column;
+    }
+.p{
+    margin: auto;
+    height: 190px;
+    width: 350px;
+}
+.dd{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    align-items:center;
+   }
+   #iOS ,#Mac{
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+   }
+   #Mac{
+    margin-top: 20px;
+   }
+   .k{
+    margin: auto;
+    width: 360px;
+   }
+   #ka{
+    width: 310px;
+    margin: auto;
+   }
+   .computer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   }
+   .b{
+    width: 280px;
+    text-align: center;
+    margin: auto;
+   }
+   .cli{
+    margin: auto;
+    width: 330px;
+   }
+   #dev{
+    width: 320px;
+    height: 200px;
+   }
+   .z{
+    width:250px ;
+    margin: auto;
+   }
+   .A{
+    display: flex;
+    flex-direction: column;
+   }
+   .o{
+    margin-top: 30px;
+   }
+   .C{
+    display: flex;
+    flex-direction: column;
+   }
+   .t{
+    margin-top: 90px;
+    height: 70px;
+   }
+   .D{
+    margin: auto;
+    width: 350px;
+   }
+   .sing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+   }
+   .abas{
+    margin-bottom: 50px;
+   }
+   .f{
+    margin-bottom: 50px;
+   }
+   .x{
+    margin-bottom: 50px;
+   }
+   .v{
+    display: flex;
+    margin-bottom: 60px;
+    padding-left: 50px;
+   }
+   .icon{
+    margin-bottom: 20px;
+   }
+}
+
+
+
+@media screen and (max-width: 375px) {
+body{
+    flex-direction: column;
+}
+.p{
+    height: 190px;
+    width: 320px;
+}
+   .dd{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    align-items:center;
+   } 
+   #iOS ,#Mac{
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+   }
+   #Mac{
+    margin-top: 20px;
+   }
+   .k{
+    width: 310px;
+   }
+   #ka{
+    width: 310px;
+    margin: auto;
+   }
+   .computer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   }
+   .b{
+    width: 280px;
+    text-align: center;
+    margin: auto;
+   }
+   .cli{
+    margin-top: 100px;
+   }
+   #dev{
+    width: 320px;
+    height: 200px;
+   }
+   .z{
+    width:250px ;
+    margin: auto;
+   }
+   .A{
+    display: flex;
+    flex-direction: column;
+   }
+   .o{
+    margin-top: 30px;
+   }
+   .C{
+    display: flex;
+    flex-direction: column;
+   }
+   .t{
+    margin-top: 90px;
+   }
+   .D{
+    width: 340px;
+   }
+   .sing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+   }
+   .abas{
+    margin-bottom: 50px;
+   }
+   .f{
+    margin-bottom: 50px;
+   }
+   .x{
+    margin-bottom: 50px;
+   }
+   .v{
+    display: flex;
+    margin-bottom: 60px;
+    padding-left: 50px;
+   }
+   .icon{
+    margin-bottom: 20px;
+   }
+}
+
